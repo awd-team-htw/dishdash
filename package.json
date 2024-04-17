@@ -14,5 +14,8 @@
     "geotool"
   ],
   "author": "Timo Boomgaarden, Jonas Mantay, Mathieu Wassmuth",
-  "license": "CC0-1.0"
+  "license": "CC0-1.0",
+  "dependencies": {
+    "cities": "^2.0.0"
+  }
 }
