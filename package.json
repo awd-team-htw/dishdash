@@ -1,0 +1,18 @@
+{
+  "name": "dishdash",
+  "version": "1.0.0",
+  "description": "A simple way to find a suitable meeting point between a group of people. Want to go out for dinner and want to travel quick? Meating Point will find the restaurant closest to each of you!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "dishdash"
+  },
+  "keywords": [
+    "geotool"
+  ],
+  "author": "Timo Boomgaarden, Jonas Mantay, Mathieu Wassmuth",
+  "license": "CC0-1.0"
+}
