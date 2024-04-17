@@ -5,7 +5,6 @@ const port = 3000,
 
     app = http.createServer((request, response) => {
     console.log("Received an incoming request!");
-
     // Read the HTML file and send it as the response
     fs.readFile('index.html', (err, data) => {
         if (err) {
@@ -22,9 +21,14 @@ const port = 3000,
             response.end();
         }
     });
-
     console.log("Response has been sent.");
 });
+
+    app.on("request", (req,res) => {
+        console.log(req.method);
+        console.log(req.url);
+        console.log(req.headers);
+    });
 
 
 
