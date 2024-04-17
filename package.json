@@ -16,6 +16,7 @@
   "author": "Timo Boomgaarden, Jonas Mantay, Mathieu Wassmuth",
   "license": "CC0-1.0",
   "dependencies": {
-    "cities": "^2.0.0"
+    "cities": "^2.0.0",
+    "http-status-codes": "^2.3.0"
   }
 }
