@@ -1,5 +1,35 @@
 ## User Stories
 
+As a user, I want to see the best restaurant nearest to me and my friends, so we can meet up there.
+
+As a user, I want to create an account, to be able to use the service reliably.
+
+As a user, I want to be able to message my friends via the platform, to check if they find the selected location okay.
+
+As a vegan, I want to see only vegan restaurants, so that I can always find good vegan spots for me and my friends.
+
+As an admin, I want to view all users, so I can have an overview about everything.
+
+As a long-distance couple, I want to find restaurants in between us, so that we have a similar arrival time.
+
+As a busy professional, I want to find a convenient meeting point for dinner with my friends after work, so we can minimize travel time and enjoy our meal together.
+
+As a student organizing a group outing, I need a tool to help us decide on a meeting place that is easily accessible to all members, considering our different locations across the city.
+
+As a traveler exploring a new city with my companions, I want to discover local restaurants that are centrally located, allowing us to experience the local cuisine without spending too much time commuting.
+
+As a parent arranging a gathering for my child's birthday party, I require a solution to find a meeting point that is suitable for families and within a reasonable distance for all attendees.
+
+As a tour guide leading a group of tourists, I need a way to identify meeting points near popular attractions, ensuring that everyone can easily reconvene after exploring different areas.
+
+As a event planner organizing a team-building activity, I'm looking for a tool to suggest meeting points with nearby restaurants that can accommodate a large group and cater to various dietary preferences.
+
+As a fitness instructor arranging outdoor workouts for my clients, I want to find meeting points that are centrally located to minimize travel time and provide easy access to nearby parks or fitness facilities.
+
+As a volunteer coordinating a community cleanup effort, I need a tool to help us determine meeting points for different teams of volunteers, considering factors like accessibility and proximity to cleanup sites.
+
+As a group of friends planning a road trip, we want to find meeting points along our route where we can stop for meals, ensuring that no one has to travel far off course to meet up.
+
 ## Implementation of Features
 
 - one or more model class can be created, read, updated and deleted
