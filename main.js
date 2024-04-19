@@ -8,6 +8,7 @@ const port = 3000,
     // Read the HTML file and send it as the response
     fs.readFile('index.html', (err, data) => {
         if (err) {
+            console.log(err);
             response.writeHead(StatusCodes.NOT_FOUND, {
                 "Content-Type": "text/html"
             });
