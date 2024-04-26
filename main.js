@@ -1,37 +1,10 @@
 const port = 3000,
-    http = require("http"),
-    fs = require("fs"),
-    StatusCodes = require("http-status-codes"),
+express = require("express"),
+app = express();
 
-    app = http.createServer((request, response) => {
-    console.log("Received an incoming request!");
-    // Read the HTML file and send it as the response
-    fs.readFile('index.html', (err, data) => {
-        if (err) {
-            console.log(err);
-            response.writeHead(StatusCodes.NOT_FOUND, {
-                "Content-Type": "text/html"
-            });
-            response.write("<h1>Page not found!</h1>");
-            response.end();
-        } else {
-            response.writeHead(StatusCodes.OK, {
-                "Content-Type": "text/html"
-            });
-            response.write(data);
-            response.end();
-        }
-    });
-    console.log("Response has been sent.");
+app.get("/", (req,res) => {
+    res.send("Hello, Universe");
+})
+.listen(port, () =>{
+    console.log(`Express server has started and is listening on port ${port}`);
 });
-
-    app.on("request", (req,res) => {
-        console.log(req.method);
-        console.log(req.url);
-        console.log(req.headers);
-    });
-
-
-
-    app.listen(port);
-    console.log(`The server has started and is listening on port number:${port}`);
