@@ -11,6 +11,9 @@ app.use(express.json());
 // Define routes
 app.get("/", homeController.index);
 app.get("/items/:fruit/:vegetable", homeController.vegetablePage);
+app.get("/add/:summand1/:summand2", homeController.add);
+app.get("/multiply/:factor1/:factor2", homeController.multiply);
+
 app.post("/", homeController.handlePostRequest);
 
 // Start the server
