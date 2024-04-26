@@ -1,0 +1,34 @@
+Sprint Backlog for Sprint 02
+Sprint Duration: April 19, 2024 - April 26, 2024
+Product Owner: Jonas
+Development Team: Jonas, Timo, Mathieu
+
+User Stories and Tasks
+US1: Project Setup and Configuration
+
+Task 1.1: Set up the project repository on GitHub (Completed)
+Task 1.2: Initialize Express server with basic routing (Completed)
+Owner: Mathieu
+Task 1.3: Create basic HTML template for the main page (Completed)
+Owner: Timo
+US2: Research and Integrate External APIs
+
+Task 2.1: Research Google Maps API for integration into the map section (Completed)
+Owner: Jonas
+Task 2.2: Explore VBB API and test feasibility for user transportation data (In progress)
+Owner: Timo
+Task 2.3: Evaluate additional API options and select suitable ones for the project (In progress)
+Owner: Mathieu
+US3: Basic Web Page Functionality
+
+Task 3.1: Develop and test route handling in Express for arithmetic operations (Completed)
+Owner: Jonas
+Task 3.2: Implement response handling in homeController.js for dynamic content (Completed)
+Owner: Mathieu
+Task 3.3: Design and implement the front-end interface for login and user settings (In progress)
+Owner: Timo
+US4: Agile Process and Management
+
+Task 4.1: Elect Jonas as the product owner (Completed)
+Task 4.2: Regular daily stand-ups to discuss progress and impediments (Ongoing)
+Task 4.3: Setup a pull system and organize GitHub project (Completed)
