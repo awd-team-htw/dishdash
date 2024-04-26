@@ -3,8 +3,9 @@ exports.index = (req, res) => {
 };
 
 exports.vegetablePage = (req, res) => {
+    let fruit = req.params.fruit;
     let veg = req.params.vegetable;
-    res.send(`This is the page for ${veg}`);
+    res.send(`Matze is a ${veg} - specifically: ${fruit}`);
 };
 
 exports.handlePostRequest = (req, res) => {

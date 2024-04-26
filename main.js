@@ -10,7 +10,7 @@ app.use(express.json());
 
 // Define routes
 app.get("/", homeController.index);
-app.get("/items/:vegetable", homeController.vegetablePage);
+app.get("/items/:fruit/:vegetable", homeController.vegetablePage);
 app.post("/", homeController.handlePostRequest);
 
 // Start the server
